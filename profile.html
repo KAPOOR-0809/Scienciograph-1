@@ -64,7 +64,7 @@ editableParagraph.style.transform = "translateX(-90%)"; // Center-align horizont
 const paragraph = document.getElementById("editable-paragraph");
 
 // Load saved content from localStorage when the page loads
-paragraph.textContent = localStorage.getItem("editableParagraph") || "I am a student of clas 9th. &bsp; My favorite subject is science. <br> I like web development.";
+paragraph.textContent = localStorage.getItem("editableParagraph") || "I am a student of clas 9th. My favorite subject is science. I like web development.";
 
 // Save content to localStorage whenever it's changed
 paragraph.addEventListener("input", () => {
